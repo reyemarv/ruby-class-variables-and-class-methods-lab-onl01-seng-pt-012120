@@ -28,6 +28,6 @@ class Song
   end
   
   def self.genre_count
-    [@genre].to_h{ |genre,
+    genre_hash
 
 end 
