@@ -27,7 +27,7 @@ class Song
     @@artists.uniq
   end
   
-  def self.genre_count
+  def genre_count
     genre_hash[@@genres]
   end 
 
